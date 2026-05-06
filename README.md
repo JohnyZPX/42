@@ -46,49 +46,44 @@ Criar arquivo com permissões específicas e empacotar em `.tar`
 ## Lógica
 Criar arquivo → ajustar permissões → validar → compactar 
 
-## 💡 Insight
+## Insight
 Permissões controlam **quem pode fazer o quê** no sistema.
 
 ---
 
-# 📌 Ex02 - Estrutura de arquivos
+# Ex02 - Estrutura de arquivos
 
-## 🎯 Objetivo
+## Objetivo
 Reproduzir exatamente uma estrutura com permissões específicas
 
-## 🧠 Conceito-chave
+## Conceito-chave
 - Permissões avançadas
 - Links simbólicos
 - Estrutura de diretórios
 
-## ⚙️ Ferramentas
+## Ferramentas
 - `mkdir`
 - `touch`
 - `chmod`
 - `ln -s`
 
-## 🔗 Lógica
+## Lógica
 Criar estrutura → ajustar permissões → validar com `ls -l`
 
-## ⚠️ Armadilhas
-- Permissões erradas
-- Link simbólico errado
-- Nome incorreto
-
-## 💡 Insight
+## Insight
 Você aprende a **replicar ambientes com precisão**.
 
 ---
 
-# 📌 Ex03 - midLS
+# Ex03 - midLS
 
-## 🎯 Objetivo
+## Objetivo
 Listar arquivos:
 - sem ocultos
 - separados por vírgula
 - ordenados por tempo
 
-## 🧠 Conceito-chave
+## Conceito-chave
 - Manipulação de saída
 - Ordenação
 - Formatação
@@ -97,15 +92,15 @@ Listar arquivos:
 - `ls`
 - flags (`-t`, etc.)
 
-## 🔗 Lógica
+## Lógica
 Listar → ordenar → formatar → limpar saída
 
-## ⚠️ Armadilhas
+## Armadilhas
 - Mostrar arquivos ocultos
 - Formato errado
 - Não usar vírgulas
 
-## 💡 Insight
+## Insight
 Shell = transformar saída até ficar perfeita.
 
 ---

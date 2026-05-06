@@ -4,46 +4,47 @@
 
 ---
 
-# 📌 Ex00 - Z
+# Ex00 - Z
 
-## 🎯 Objetivo
+## Objetivo
 Criar um arquivo que ao usar `cat` mostre:
 Z + quebra de linha
 
-## 🧠 Conceito-chave
+## Conceito-chave
 - Redirecionamento de saída
 - Criação de arquivos simples
 
-## 🔗 Lógica
+## Lógica
 Entrada → nada  
 Saída → texto fixo dentro de um arquivo
 
-## 💡 Insight
+## Insight
 Shell também serve pra **gerar conteúdo**, não só executar comandos.
 
 ---
 
-# 📌 Ex01 - testShell00
+# Ex01 - testShell00
 
-## 🎯 Objetivo
+## Objetivo
 Criar arquivo com permissões específicas e empacotar em `.tar`
 
-## 🧠 Conceito-chave
+## Conceito-chave
 - Permissões (`chmod`)
 - Estrutura de arquivos
 - Compactação
 
-## ⚙️ Ferramentas
+## Ferramentas
 - `chmod`
+> Controla as permissões de arquivo de **(Usuário, Grupo, Outros)** [rwx]
+
 - `ls -l`
+> Lista arquivos de uma pasta atuação ou denominada `-l` faz uma lista longa, mostrando **(Permissões, numero de links, user, group, tamanho dos arquivos, data, nome)**
+
 - `tar`
+> Serve para juntar varios arquivos em um só (um "pacote"), arquiva e extrai arquivos usando o comando `tar -cf nome-do-arquivo.tar file1 file2`. Ou extrair um arquivo `tar -xf arquivo.tar`
 
-## 🔗 Lógica
-Criar arquivo → ajustar permissões → validar → compactar
-
-## ⚠️ Armadilhas
-- Permissões erradas = 0 automático
-- Esquecer o `.tar`
+## Lógica
+Criar arquivo → ajustar permissões → validar → compactar 
 
 ## 💡 Insight
 Permissões controlam **quem pode fazer o quê** no sistema.

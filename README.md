@@ -19,7 +19,7 @@ Entrada → nada
 Saída → texto fixo dentro de um arquivo
 
 ## Insight
-Shell também serve pra** gerar conteúdo ** , não só executar comandos.
+Shell também serve pra **gerar conteúdo** , não só executar comandos.
 
 ---
 
